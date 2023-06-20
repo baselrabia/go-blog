@@ -1,7 +1,13 @@
 app:
-  name: blog
-
+  name: "Blog"
 
 server:
-  host: localhost
-  port: 8080
+  host: "localhost"
+  port: "8080"
+
+db:
+  username: "root"
+  password: "YourDatabasePass"
+  host: "127.0.0.1"
+  port: "3306"
+  name: "go-blog"
